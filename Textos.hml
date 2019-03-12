@@ -12,7 +12,7 @@
 
 <!-- Descripcion mediante Parrafo.-->
 
-<p>En Html los titulos se pueden definir con ayuda de las etiquetas <pre>"h1"</pre> acompañado de un indicador de 1~6, el cual mientras mayor sea menor sera el tama&ntilde;o tel Titulo</p>
+<p>En Html los titulos se pueden definir con ayuda de las etiquetas <pre>"h1"</pre> acompañado de un indicador de 1~6, el cual mientras mayor sea menor sera el tamaño tel Titulo</p>
 
 <h1>Titulo principal (indicador 1)</h1>
 <h2>Titulo (indicador 2)</h2>
