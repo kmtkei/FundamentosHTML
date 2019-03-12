@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>HTML</title>
+</head>
+  
+<body>
+
+<!-- [Titulo Principal]    -->
+<h1>Titulos</h1>
+
+<!-- Descripcion mediante Parrafo.-->
+
+<p>En Html los titulos se pueden definir con ayuda de las etiquetas <pre>"h1"</pre> acompañado de un indicador de 1~6, el cual mientras mayor sea menor sera el tama&ntilde;o tel Titulo</p>
+
+<h1>Titulo principal (indicador 1)</h1>
+<h2>Titulo (indicador 2)</h2>
+<h3>Titulo (indicador 3)</h3>
+<h4>Titulo (indicador 4)</h4>
+<h5>Titulo (indicador 5)</h5>
+<h6>Titulo (indicador 6)</h6>
+
+<!-- [Muestra de titulos]    -->
+
+<p>ademas de los titulos, en html se pueden trabajar con la separacion de parrafos mediante la etiqueta "p"</p>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce viverra erat a convallis dignissim. Quisque mauris risus, ultricies et pharetra ac, viverra sit amet erat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean non tincidunt ipsum. Quisque quis arcu tempor nisl viverra faucibus pulvinar ut sapien. Donec consectetur, mi vitae faucibus laoreet, nibh est accumsan libero, sed volutpat felis nunc in nibh. Proin porta metus feugiat, dapibus nulla id, rutrum risus. Praesent eu orci libero. In ultricies fringilla felis non feugiat. Suspendisse suscipit blandit turpis. Integer vel augue semper, posuere sapien non, malesuada risus. Quisque sed aliquet nisi. Maecenas cursus leo eu lacus rutrum tristique. Sed eget tincidunt elit. Etiam molestie velit id dui volutpat ultricies. Duis id justo ipsum.</p>
+
+<p>Proin eu lacus at erat ultrices fringilla. Fusce nec massa aliquam justo tristique dapibus sit amet eu purus. Phasellus ultricies ante nisl, non auctor erat vestibulum in. Quisque vitae ullamcorper ante. Fusce sit amet dolor sed elit facilisis pulvinar fermentum sed dolor. In convallis vel eros sit amet convallis. Nulla semper accumsan dapibus. Sed in eleifend tortor. In quis diam a lacus hendrerit egestas. Praesent sed massa pharetra, consequat lectus ac, mattis ante. Nunc consectetur lectus eget leo malesuada, eget finibus metus porta. Morbi purus mauris, egestas ac iaculis congue, consectetur at quam. Proin ut feugiat metus, et molestie dolor. Suspendisse potenti.</p>
+
+<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nam a eros in purus ullamcorper euismod eget vitae libero. Vestibulum aliquet id enim at cursus. Donec ac augue ligula. Ut nec viverra odio. Aenean eu pretium elit, ut tempor sapien. Donec venenatis, magna ac posuere fermentum, tortor eros euismod ante, vel mollis massa mi ut orci. Sed vulputate et massa non scelerisque. Donec eget mi urna. Proin ac ex at ipsum aliquet scelerisque. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec odio velit, sagittis eget nulla eget, dapibus blandit tortor.</p>
+
+
+<!-- [Ejemplo de parrafos]    -->
+
+</body>
+
+</html>
