@@ -5,8 +5,118 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Repaso antes de la prueba</title>
+    <style>
+        /* Selectores de etiqueta 
+        que nos sirven para darle estilo personalizado a un 
+        elemento html POR ETIQUETA */
+
+        header{
+            /*border: 1px black solid;*/
+            background-color: aquamarine;
+            width: 768px;
+            height:500px;
+        }
+        /* concatenando los elementos podemos seleccionar 
+        los hijos de un elemento */
+        nav ul{
+            margin:0;
+            padding:0;
+        }
+
+        nav li{
+            padding-top:20px;
+            text-align:center;
+            height: 70px;
+            margin:0;
+            background-color:burlywood;
+            /* le quitamos los puntitos*/
+            list-style: none;
+            transition: .5s;
+        }
+        nav li:hover{
+            background-color:rgb(255, 255, 255);
+            color:burlywood;
+        }
+
+        nav {
+            float:left;
+            margin:0;
+            padding:0;
+            background-color: bisque;
+            width:40%;
+        }
+       
+        
+        div{
+            width: 768px;
+            border:1px solid black;
+
+        }
+        
+        section{
+            width:60%;
+            float:right;
+            height:450px;
+            background-color:blue;
+        }
+
+        footer{
+            background-color:cornflowerblue;
+            width: 768px;
+            height:250px;
+            clear: both;
+        }
+
+        /* Selectores por clase o id 
+        para clase usar punto, y para id usar #
+        */
+
+        #contenedor-pagina{
+            width:768px;
+            height: auto;
+            border:3px solid red;
+            margin:0 auto;
+        }
+
+    </style>
 </head>
 <body>
+    <div id="contenedor-pagina">
+<!-- iniciamos la etiqueta body que nos dice donde empieza el cuerpo de la pagina 
+    a partir de aca se renderiza lo que se ve por pantalla 
+    -->
+    <!-- encabezado de la pagina-->
+    <header>
+        Esto es el encabezado de la pagina
+    </header>
+    <!-- la etiqueta div nos permite identificar el  inicio y fin
+    de un contendor de elementos. -->
+    <div>
+    <!-- la etiqueta nav nos sirve para identificar donde ira el menu o navegacion de la pagina -->
+    <nav>
+        <ul><!-- esto es una lista desordenada -->
+            <li><a href="">Item</a></li>
+            <!-- li son elementos de la lista
+                los A son Links/vinculos/enlaces a otra paginas o referencias de la misma. -->
+            <li><a href="">Item</a></li>
+            <li><a href="">Item</a></li>
+            <li><a href="">Item</a></li>
+        </ul>
+    </nav>
+    <!-- la etiqueta section nos sirve para identificar 
+    donde empieza y donde termina una seccion o bloque de nuestra pagina 
+    -->
+    <section>
+        este es el contenido de la pagina
+    </section>
+    </div>
+    <!-- la etiqueta footer nos sirve para identificar donde empieza y donde termina 
+    el pie de pagina -->
+    <footer>
+        este es el pie de pagina 
+    </footer>
+<!-- Cerramos el /body para delimitar el cierre del cuerpo de nuesta pagina-->
+    </div>
     
 </body>
 </html>
