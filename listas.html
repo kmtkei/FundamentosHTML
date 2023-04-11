@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Mi sitio web</title>
+	<link rel="stylesheet" href="estilos.css">
+    <style>
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+header {
+	background-color: #333;
+	color: #fff;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem;
+}
+
+.logo a {
+	color: #fff;
+	font-size: 1.5rem;
+	text-decoration: none;
+}
+
+nav ul {
+	list-style: none;
+	display: flex;
+}
+
+nav ul li {
+	margin-left: 1rem;
+}
+
+nav ul li:first-child {
+	margin-left: 0;
+}
+
+nav ul li a {
+	color: #fff;
+	text-decoration: none;
+}
+
+main {
+	padding: 1rem;
+}
+
+.destacado {
+	background-image: url("imagen-de-fondo.jpg");
+	background-size: cover;
+	background-position: center center;
+	color: #fff;
+	text-align: center;
+	padding: 4rem;
+	margin-bottom: 2rem;
+}
+
+.destacado h1 {
+	font-size: 3rem;
+	margin-top: 0;
+}
+
+.destacado p {
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+.boton {
+	display: inline-block;
+	background-color: #fff;
+	color: #333;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	text-decoration: none;
+}
+
+.boton:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+.servicios {
+	margin-bottom: 2rem;
+}
+
+.servicios h2 {
+	margin-top: 0;
+}
+
+.acerca-de {
+	margin-bottom: 2rem;
+}
+
+.contacto {
+	margin-bottom: 2rem;
+}
+
+.contacto form {
+	display: flex;
+	flex-direction: column;
+}
+
+.contacto form label {
+	margin-bottom: 0.5rem;
+}
+
+.contacto form input,
+.contacto form textarea {
+	padding: 0.5rem;
+	border-radius: 0.5rem;
+	border: 1px solid #ccc;
+	margin-bottom: 1rem;
+}
+
+.contacto form input[type="submit"] {
+	background-color: #333;
+	color: #fff;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+}
+
+.contacto form input[type="submit"]:hover {
+	background-color: #666;
+}
+
+footer {
+	background-color: #ccc;
+	padding: 1rem;
+	text-align: center;
+	color: #333;
+}
+    </style>
+</head>
+<body>
+	<header>
+		<div class="logo">
+			<a href="#">Mi sitio web</a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="#">Inicio</a></li>
+				<li><a href="#">Acerca de</a></li>
+				<li><a href="#">Servicios</a></li>
+				<li><a href="#">Contacto</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main>
+		<section class="destacado">
+			<h1>Bienvenidos a mi sitio web</h1>
+			<p>Este es un sitio web de ejemplo para mostrar cómo se puede crear una página web sencilla utilizando HTML y CSS.</p>
+			<a href="#" class="boton">Leer más</a>
+		</section>
+		<section class="servicios">
+			<h2>Nuestros servicios</h2>
+			<ul>
+				<li>Diseño web</li>
+				<li>Desarrollo web</li>
+				<li>Marketing en línea</li>
+				<li>Redes sociales</li>
+			</ul>
+		</section>
+		<section class="acerca-de">
+			<h2>Acerca de nosotros</h2>
+			<p>Somos una agencia de diseño y desarrollo web que se enfoca en crear soluciones creativas y efectivas para nuestros clientes.</p>
+		</section>
+		<section class="contacto">
+			<h2>Contacto</h2>
+			<form>
+				<label for="nombre">Nombre:</label>
+				<input type="text" id="nombre" name="nombre">
+				<label for="email">Correo electrónico:</label>
+				<input type="email" id="email" name="email">
+				<label for="mensaje">Mensaje:</label>
+				<textarea id="mensaje" name="mensaje"></textarea>
+				<input type="submit" value="Enviar">
+			</form>
+		</section>
+	</main>
+	<footer>
+		<p>Derechos reservados &copy; 2023</p>
+	</footer>
+</body>
+</html>
