@@ -55,4 +55,29 @@ Etiquetas utilizadas y definición :
   ```
 
 
+resumen propiedades mas utilizadas css : 
+```
+
+    background-color: establece el color de fondo de un elemento.
+    color: establece el color del texto dentro de un elemento.
+    font-size: establece el tamaño de la fuente del texto dentro de un elemento.
+    font-family: establece la fuente que se utilizará para el texto dentro de un elemento.
+    padding: agrega espacio interno alrededor del contenido de un elemento.
+    margin: agrega espacio externo alrededor de un elemento.
+    border: agrega un borde alrededor de un elemento.
+    width: establece el ancho de un elemento.
+    height: establece la altura de un elemento.
+    text-align: establece la alineación del texto dentro de un elemento.
+    display: controla cómo se muestra un elemento (bloque, en línea, etc.).
+    position: controla la posición de un elemento en relación con otros elementos en la página.
+    float: controla la posición horizontal de un elemento.
+    clear: controla cómo se comporta un elemento después de haber sido "flotado".
+    z-index: controla el orden de apilamiento de elementos que se superponen en una página.
+    opacity: controla la transparencia de un elemento.
+    transition: agrega una transición animada a un elemento cuando cambia su estado.
+    transform: aplica una transformación (rotación, escala, etc.) a un elemento.
+    box-shadow: agrega una sombra alrededor de un elemento.
+    text-decoration: controla la decoración del texto (subrayado, tachado, etc.).
+```
+
 
