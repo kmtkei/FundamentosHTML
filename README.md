@@ -1,6 +1,7 @@
 # Fundamentos de HTML y CSS
 
 Etiquetas utilizadas y definición : 
+'''
 
 <!DOCTYPE html>: Declaración del tipo de documento HTML utilizado.
 
@@ -50,6 +51,8 @@ Etiquetas utilizadas y definición :
 
 <input type="text" name="" id=""> : Crea un campo de entrada de texto.
 <textarea name="" id="" cols="30" rows="5"></textarea>: Crea un área de texto con 30 columnas y 5 filas.
+  
+  '''
 
 
 
