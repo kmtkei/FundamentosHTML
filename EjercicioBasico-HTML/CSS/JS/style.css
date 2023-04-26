@@ -1,0 +1,89 @@
+.container{
+    width:80%;
+    margin:0 auto;
+}
+
+.container-nav{
+ width:100%;
+ background-color: white;   
+}
+
+.logo, nav{
+    width:40%;
+    display:inline-block;
+}
+
+nav ul li{
+    display:inline-block;
+}
+
+nav ul{
+    text-align:right;
+    margin: 0 5px;
+}
+
+header{
+    background-color:gray;
+    height:500px;
+    overflow:hidden;
+}
+
+.container-header-content{
+    position:relative;
+    top:20%;
+    left:10%;
+}
+
+.imagen{
+    position:absolute;
+    top:0;
+    right:12%;
+    width:40%;
+    height:auto;
+    background-color: aquamarine;
+}
+
+.center{
+    text-align:center;
+}
+
+.pad-30{
+    padding:30px 0;
+}
+
+.contenido{
+    width:40%;
+    position:relative;
+}
+
+section{
+    margin:0 auto;
+    width:80%;
+}
+
+.divided{
+    display:flex;
+}
+
+.full{
+    width:100%;
+}
+
+.mid{
+    width:45%;
+}
+
+.project{
+    width:150px;
+    height:150px;
+    background-color:gray;
+    border:1px solid black;
+    display: inline-block;
+    margin:10px;
+}
+
+.final{
+    padding:5px;
+    background:black;
+    color: white;
+}
