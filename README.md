@@ -1,6 +1,9 @@
 # Fundamentos de HTML y CSS
 
-Etiquetas utilizadas y definición : 
+
+## HTML
+
+### Etiquetas utilizadas y definición : 
 
 ```
 <!DOCTYPE html>: Declaración del tipo de documento HTML utilizado.
@@ -54,8 +57,10 @@ Etiquetas utilizadas y definición :
 <textarea name="" id="" cols="30" rows="5"></textarea>: Crea un área de texto con 30 columnas y 5 filas.
   ```
 
+## CSS 
 
-resumen propiedades mas utilizadas css : 
+### Resumen propiedades mas utilizadas css : 
+
 ```
 
     background-color: establece el color de fondo de un elemento.
@@ -80,4 +85,48 @@ resumen propiedades mas utilizadas css :
     text-decoration: controla la decoración del texto (subrayado, tachado, etc.).
 ```
 
+## Javascript 
 
+### Definicion de variables 
+```
+var nombreVariable = valor;
+let otraVariable = valor;
+const constante = valor;
+```
+
+### Condicional IF 
+```
+if (condicion) {
+  // código a ejecutar si se cumple la condición
+} else {
+  // código a ejecutar si no se cumple la condición
+}
+```
+### Bucles / Ciclos (While, For, ForEach) 
+```
+
+while (condicion) {
+  // código a ejecutar mientras se cumpla la condición
+}
+```
+```
+
+for (inicialización; condición; incremento/decremento) {
+  // código a ejecutar mientras se cumpla la condición
+}
+```
+```
+
+array.forEach(function(elemento) {
+  // código a ejecutar para cada elemento del array
+});
+```
+
+### Definicion de funciones 
+
+```
+function nombreFuncion(argumento1, argumento2) {
+  // código a ejecutar dentro de la función
+  return valor; // opcional
+}
+```
